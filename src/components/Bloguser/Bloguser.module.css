@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.userText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .userTitle{
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .userValue{
+    font-weight: 500;
+  }
+
+  .img{
+    position: relative;
+    border-radius: 40%;
+  }
